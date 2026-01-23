@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About | Tech Tweakers",
-  description: "We are an open source–driven consulting brand focused on cloud solutions and backend engineering.",
+  description: "Engineering-focused consulting for cloud solutions, backend architecture, and applied AI.",
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto space-y-8">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">About Tech Tweakers</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Tech Tweakers is an open source–driven side project and consulting brand, focused on cloud solutions, backend engineering, automation, and applied AI.
+            Tech Tweakers is an engineering-focused consulting practice, specialized in cloud solutions, backend architecture, automation, and applied AI.
           </p>
         </div>
       </Section>
@@ -23,7 +23,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
             <p className="text-muted-foreground leading-7">
-              Our goal is simple: to build high-quality software that stands the test of time. We believe in the power of open source not just as a consumer, but as a contributor. We approach every project—whether it's a client engagement or an internal tool—as an engineering challenge that deserves a robust, scalable solution.
+              Our goal is simple: to build high-quality software that stands the test of time. We approach every project as an engineering challenge that deserves a robust, scalable solution. Whether it's a client system or our own technology, we prioritize technical excellence and operational reliability.
             </p>
           </div>
           
@@ -32,7 +32,7 @@ export default function AboutPage() {
             <ul className="space-y-4 text-muted-foreground">
               <li className="flex gap-3">
                 <span className="h-2 w-2 rounded-full bg-primary mt-2 shrink-0" />
-                <span><strong>Transparency:</strong> We prefer open code and open communication.</span>
+                <span><strong>Rigor:</strong> We apply engineering discipline to every technical decision.</span>
               </li>
               <li className="flex gap-3">
                 <span className="h-2 w-2 rounded-full bg-primary mt-2 shrink-0" />
@@ -40,7 +40,7 @@ export default function AboutPage() {
               </li>
               <li className="flex gap-3">
                 <span className="h-2 w-2 rounded-full bg-primary mt-2 shrink-0" />
-                <span><strong>Quality:</strong> We don't ship "hacky" code. We build for production from day one.</span>
+                <span><strong>Reliability:</strong> We don't ship "hacky" code. We build for production from day one.</span>
               </li>
             </ul>
           </div>

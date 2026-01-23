@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Tech Tweakers | Cloud Solutions & Backend Engineering",
-  description: "Open source–driven cloud solutions, backend engineering, and applied AI. Focused on scalability, maintainability, and real-world impact.",
+  description: "Cloud solutions, backend engineering, and applied AI. Focused on scalability, maintainability, and real-world impact.",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
       >
         <Header />
         <main className="flex-1">
-          {children}
+        {children}
         </main>
         <Footer />
       </body>

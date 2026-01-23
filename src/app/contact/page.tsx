@@ -14,7 +14,7 @@ export default function ContactPage() {
         <div className="max-w-3xl mx-auto space-y-8 text-center">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Let's Build Together</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            If you value engineering quality, open source, and maintainability, we'd love to hear from you.
+            If you value engineering quality, scalability, and technical excellence, we'd love to hear from you.
           </p>
         </div>
       </Section>

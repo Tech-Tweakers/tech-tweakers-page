@@ -7,7 +7,6 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { name: "Services", href: "/services" },
-  { name: "Open Source", href: "/open-source" },
   { name: "Projects", href: "/projects" },
   { name: "About", href: "/about" },
 ];
@@ -16,9 +15,14 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 md:px-8 mx-auto">
         <Link href="/" className="mr-6 flex items-center space-x-2 font-bold" onClick={() => setIsOpen(false)}>
+          <img
+            src="/logo.png"
+            alt="Tech Tweakers Logo"
+            className="h-8 w-8"
+          />
           <span className="text-lg tracking-tight">Tech Tweakers</span>
         </Link>
         

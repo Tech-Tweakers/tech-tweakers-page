@@ -24,10 +24,10 @@ export function Footer() {
               Services
             </Link>
              <Link
-              href="/open-source"
+              href="/projects"
               className="text-sm font-medium text-muted-foreground hover:underline underline-offset-4"
             >
-              Open Source
+              Projects
             </Link>
         </div>
       </div>
