@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
     images: {
         unoptimized: true,
     },
+    basePath: '/tech-tweakers-page',
+    assetPrefix: '/tech-tweakers-page/',
 };
 
 export default nextConfig;
