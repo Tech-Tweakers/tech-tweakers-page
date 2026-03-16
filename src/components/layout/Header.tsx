@@ -5,6 +5,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/../public/logo.png";
 
 const navItems = [
     { name: "Services", href: "/services" },
@@ -20,7 +21,7 @@ export function Header() {
             <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 md:px-8 mx-auto">
                 <Link href="/" className="mr-6 flex items-center gap-3 font-bold" onClick={() => setIsOpen(false)}>
                     <Image
-                        src="/logo.png"
+                        src={logo}
                         alt="Tech Tweakers Logo"
                         width={36}
                         height={36}
