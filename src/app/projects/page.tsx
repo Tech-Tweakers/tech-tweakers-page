@@ -275,7 +275,7 @@ export default function ProjectsPage() {
               </div>
               <div className="flex gap-3 shrink-0">
                 <Link
-                  href="https://tech-tweakers.github.io/polaris-v2-web/#/"
+                  href="https://techtweakers.org/polaris-v2-web/#/"
                   target="_blank"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
                 >

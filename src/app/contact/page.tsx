@@ -1,5 +1,5 @@
 import { Section } from "@/components/layout/Section";
-import { Mail } from "lucide-react";
+import { Github } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -41,8 +41,8 @@ export default function ContactPage() {
            
            <div className="mt-8 pt-8 border-t flex flex-col items-center gap-4 text-center">
              <div className="flex items-center text-muted-foreground">
-               <Mail className="mr-2 h-4 w-4" />
-               <a href="mailto:hello@techtweakers.com" className="hover:text-foreground transition-colors">hello@techtweakers.com</a>
+               <Github className="mr-2 h-4 w-4" />
+               <a href="https://github.com/Tech-Tweakers" target="_blank" className="hover:text-foreground transition-colors">github.com/Tech-Tweakers</a>
              </div>
            </div>
         </div>
