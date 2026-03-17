@@ -435,12 +435,11 @@ export default function ProjectsPage() {
               </div>
               <div className="flex gap-3 shrink-0">
                 <Link
-                  href="https://github.com/Tech-Tweakers/polaris-v3-api"
-                  target="_blank"
-                  className="inline-flex items-center justify-center rounded-md border bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  href="/contact"
+                  className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
                 >
-                  <Github className="mr-2 h-4 w-4" />
-                  GitHub
+                  <MessageSquare className="mr-2 h-4 w-4" />
+                  Talk to Us
                 </Link>
               </div>
             </div>
@@ -578,9 +577,6 @@ export default function ProjectsPage() {
                   </span>
                   <span className="bg-muted px-2.5 py-1 rounded text-xs font-mono">
                     XCT Protocol
-                  </span>
-                  <span className="bg-muted px-2.5 py-1 rounded text-xs font-mono">
-                    MIT
                   </span>
                 </div>
               </div>
