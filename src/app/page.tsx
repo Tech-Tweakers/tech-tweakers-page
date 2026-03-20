@@ -21,16 +21,16 @@ export default function Home() {
       <Section className="flex flex-col justify-center min-h-[80vh] py-20 md:py-32">
         <div className="max-w-3xl space-y-8 mx-auto">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            We build{" "}
-            <span className="text-emerald-400">AI-powered systems</span> that
-            actually work in{" "}
+            We build tools because{" "}
+            <span className="text-emerald-400">we need them</span>. Then we
+            put them in{" "}
             <span className="text-amber-400">production</span>.
           </h1>
           <p className="max-w-2xl leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            Model training, cloud infrastructure, and automation workflows.
-            We use <strong>XCT</strong> — our protocol where models propose
-            and tools execute — because we learned the hard way that LLMs
-            shouldn&apos;t run the show.
+            That&apos;s why we created <strong>XCT</strong> — an open
+            protocol where models propose and deterministic tools execute
+            — because we got tired of LLMs breaking things in production.
+            Everything we ship, we use ourselves first.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Link
@@ -56,7 +56,7 @@ export default function Home() {
             What We Do
           </h2>
           <p className="text-lg text-muted-foreground">
-            Three things we&apos;re good at. Not everything — just these.
+            Three things we do well. Not everything — just these.
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-3">
@@ -125,9 +125,9 @@ export default function Home() {
             XCT — Execution Control Transfer
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A protocol we built after too many incidents with autonomous AI in
-            production. The idea is simple: models suggest, systems decide,
-            tools do the work. Keeps things predictable.
+            Born from real incidents with autonomous AI in production.
+            The rule is simple: the model proposes, the system validates,
+            deterministic tools execute. No exceptions.
           </p>
           <div className="grid gap-6 md:grid-cols-3 mt-12">
             <div className="space-y-4 p-6 rounded-xl border bg-card/50 backdrop-blur-sm">
@@ -180,7 +180,7 @@ export default function Home() {
             The Polaris Ecosystem
           </h2>
           <p className="text-lg text-muted-foreground">
-            Tools we built, use in production, and maintain actively.
+            Tools we built for ourselves and now maintain in production.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -208,8 +208,9 @@ export default function Home() {
             </div>
             <h3 className="font-bold">Polaris v2</h3>
             <p className="text-sm text-muted-foreground">
-              AI chat with voice, document processing, and multi-platform
-              support. Runs local or cloud.
+              Institutional chatbot with RAG, voice, and multi-platform
+              support. For companies that need a conversational assistant
+              with guardrails.
             </p>
             <Link
               href="https://tech-tweakers.github.io/polaris-v2-web/#/"
@@ -226,8 +227,9 @@ export default function Home() {
             </div>
             <h3 className="font-bold">Polaris v3</h3>
             <p className="text-sm text-muted-foreground">
-              Automation platform running on XCT. Used for document validation,
-              blockchain trades, and infra orchestration.
+              Deterministic agent powered by XCT, customized to each use
+              case. For critical automation — infra, finance, compliance
+              — where the model proposes and the system decides.
             </p>
             <div className="flex flex-wrap gap-1.5">
               <span className="bg-muted px-2 py-0.5 rounded text-xs font-mono">
@@ -275,8 +277,8 @@ export default function Home() {
             Got a problem that fits?
           </h2>
           <p className="text-muted-foreground text-lg">
-            If you need a trained model, infra that doesn&apos;t fall over, or
-            an automation pipeline that actually works — we should talk.
+            If you need control over LLMs in production — not demos,
+            not proofs of concept — we should talk.
           </p>
           <Link
             href="/contact"

@@ -263,14 +263,15 @@ export default function ProjectsPage() {
               <div className="space-y-4">
                 <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium text-primary">
                   <MessageSquare className="mr-2 h-4 w-4" />
-                  AI Assistant
+                  Institutional Chatbot
                 </div>
                 <h2 className="text-3xl font-bold">Polaris v2</h2>
                 <p className="text-muted-foreground max-w-2xl leading-relaxed">
-                  Multi-modal AI assistant with conversational AI, voice
-                  synthesis, document processing, and multi-platform
-                  connectivity. Customizable chat deployable on local
-                  infrastructure or cloud — your models, your data, your rules.
+                  Conversational AI assistant for companies that need a
+                  chatbot with guardrails — not a toy. RAG over your
+                  documents, voice input/output, multi-platform delivery
+                  (web, Telegram, API), deployable on your infrastructure
+                  or cloud. Your models, your data, your rules.
                 </p>
               </div>
               <div className="flex gap-3 shrink-0">
@@ -422,15 +423,18 @@ export default function ProjectsPage() {
               <div className="space-y-4">
                 <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium text-primary">
                   <Workflow className="mr-2 h-4 w-4" />
-                  Automation Platform
+                  Deterministic Agent
                 </div>
                 <h2 className="text-3xl font-bold">Polaris v3</h2>
                 <p className="text-muted-foreground max-w-2xl leading-relaxed">
-                  Automation platform powered by the XCT Protocol. Models
-                  propose actions, the system validates and controls execution
-                  through deterministic tools. Built for infrastructure
-                  orchestration, deployment pipelines, and compliance-sensitive
-                  environments where reliability matters more than speed.
+                  This is not a chatbot — it&apos;s a deterministic execution
+                  agent powered by the XCT Protocol. The model proposes one
+                  action at a time, the system validates, deterministic tools
+                  execute. Designed to be customized to your use case: each
+                  deployment gets its own tool set, validation rules, and
+                  execution boundaries tailored to the problem at hand.
+                  Built for critical automation where reliability is
+                  non-negotiable.
                 </p>
               </div>
               <div className="flex gap-3 shrink-0">
