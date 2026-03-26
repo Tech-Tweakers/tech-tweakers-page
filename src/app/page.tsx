@@ -21,9 +21,9 @@ export default function Home() {
       <Section className="flex flex-col justify-center min-h-[80vh] py-20 md:py-32">
         <div className="max-w-3xl space-y-8 mx-auto">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            We build tools because{" "}
-            <span className="text-emerald-400">we need them</span>. Then we
-            put them in{" "}
+            We build tools for our{" "}
+            <span className="text-emerald-400">needs</span>. Now you can use
+            them in{" "}
             <span className="text-amber-400">production</span>.
           </h1>
           <p className="max-w-2xl leading-normal text-muted-foreground sm:text-xl sm:leading-8">
