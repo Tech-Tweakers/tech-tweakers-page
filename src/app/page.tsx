@@ -31,9 +31,7 @@ export default function Home() {
             <span className="text-amber-400">production</span>.
           </h1>
           <p className="max-w-2xl leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            From <strong>Polaris</strong> to <strong>XCT</strong> to{" "}
-            <strong>Hen</strong> to <strong>TxAI</strong> — we don&apos;t ship
-            demos. Everything we build, we run in our own production first. If it
+            Everything we build, we run in our own production first. If it
             can&apos;t survive our stack, it doesn&apos;t reach yours.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">

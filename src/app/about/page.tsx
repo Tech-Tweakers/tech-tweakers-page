@@ -1,6 +1,6 @@
 import { Section } from "@/components/layout/Section";
 import Link from "next/link";
-import { ArrowRight, Linkedin } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -88,18 +88,9 @@ export default function AboutPage() {
               <div>
                 <div className="font-semibold text-foreground">Andreh Torres</div>
                 <div className="text-sm text-muted-foreground">
-                  Principal Engineer / Founder · Tech Tweakers Brazil
+                  Principal Engineer · Tech Tweakers Brazil
                 </div>
               </div>
-              <a
-                href="https://www.linkedin.com/in/andrehtorres/?locale=en-US"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
-              >
-                <Linkedin className="h-4 w-4" />
-                LinkedIn
-              </a>
             </div>
           </div>
 
